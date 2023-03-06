@@ -4,7 +4,7 @@ import { Collapse, Row, Col, Typography, Avatar } from 'antd';
 import HTMLReactParser from 'html-react-parser';
 
 import { useGetExchangesQuery } from '../services/cryptoApi';
-// import Loader from './Loader';
+import Loader from './Loader';
 
 const { Text } = Typography;
 const { Panel } = Collapse;
@@ -14,8 +14,7 @@ const Exchanges = () => {
   const exchangesList = data?.data?.exchanges;
   const stats = data?.data?.stats;
 
-  // if (isFetching) return <Loader />;
-  if (isFetching) return "Loading...";
+  if (isFetching) return <Loader />;
 
   return (
     <>
