@@ -1,5 +1,8 @@
 # crypto-tracker-dashboard
 
+Tutorial: [Build and Deploy a React Cryptocurrency App and Master Redux Toolkit in One Video
+](https://youtu.be/9DDX3US3kss)
+
 ## Setup
 
 Packages to install:
